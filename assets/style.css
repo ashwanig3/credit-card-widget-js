@@ -1,0 +1,45 @@
+.cred-details {
+    width: 90%;
+    margin: 30px auto;
+}
+.card {
+    width: 90%;
+    margin: 30px auto;
+    background-color: grey;
+    height: 250px;
+    border-radius: 10px;
+}
+.submit-btn {
+    width: 100%;
+    background-color: #0099e5;
+    font-size: 18px;
+    color: #fff;
+}
+.card-no {
+    margin: 50px 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 25px;
+}
+.user-details {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .cred-details {
+        width: 40%;
+        margin: 30px auto;
+    }
+    .card {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 25px;
+    }
+}

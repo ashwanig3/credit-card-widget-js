@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Input Widget</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css" >
+</head>
+<body>
+    <main>
+        <div class="cred-details">
+            <h1 class="text-center title">Credit Card Input Widget</h1>
+            <div class="card">
+                <div class="card-no text-center" id="card-no">.... .... .... ....</div>
+                <div class="user-details">
+                    <div class="name-val" id="name-val">YOUR NAME HERE</div>
+                    <div class="valid-upto" id="valid-upto">valid thru</div>
+                </div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <input id="card_number" maxlength="19" placeholder="Card Number" name="card-number" class="form-control" >
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Name" name="name" class="form-control" id="username">
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6 col-xs-12">
+                        <input id="valid_thru" placeholder="Valid Thru" name="valid-thru" class="form-control" maxlength="5">
+                    </div>
+                    <div class="form-group col-md-6 col-xs-12">
+                        <input type="password" placeholder="CVV" name="cvv" class="form-control">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-block submit-btn">Pay</button>
+            </form>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
